@@ -14,23 +14,15 @@ CNRec_groundTruth.csv contains the following fields:
 
 art1	art2	meanGoodR	meanSimRating	GoodR_75	GoodR_50	pair_id	diversity_75	diversity_50
 
-art1: id of the first article in the pair
-
-art2: id of the second article in the pair
-
-meanGoodR: the mean good recommendation rating across the six participants 
-
-meanSimRating: the mean similarity rating across the six participants
-
-GoodR_75: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.75
-
-GoodR_50: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.5
-
-pair_id: the id of the pair of articles (note that the pair 1 0 and 0 1 share the same pair ID)
-
-diversity_75: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.75 and the meanSimRating was <= 1
-
-diversity_50: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.5 and the meanSimRating was <= 1
+-art1: id of the first article in the pair
+-art2: id of the second article in the pair
+-meanGoodR: the mean good recommendation rating across the six participants 
+-meanSimRating: the mean similarity rating across the six participants
+-GoodR_75: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.75
+-GoodR_50: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.5
+-pair_id: the id of the pair of articles (note that the pair 1 0 and 0 1 share the same pair ID)
+-diversity_75: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.75 and the meanSimRating was <= 1
+-diversity_50: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.5 and the meanSimRating was <= 1
 
 CNRec_All_Data has the following fields:
 
