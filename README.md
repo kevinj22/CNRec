@@ -10,7 +10,9 @@ wc *.???
   5401   5401 165913 CNRec_groundTruth.csv <br />
  21902  21902 740110 total <br />
 
-CNRec_groundTruth.csv contains the following fields:
+### CNRec_groundTruth.csv 
+
+Contains the following fields:
 
 <li> art1: id of the first article in the pair <br />
 <li> art2: id of the second article in the pair <br />
@@ -22,7 +24,9 @@ CNRec_groundTruth.csv contains the following fields:
 <li> diversity_75: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.75 and the meanSimRating was <= 1 <br />
 <li> diversity_50: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.5 and the meanSimRating was <= 1 <br />
 
-CNRec_All_Data has the following fields:
+### CNRec_All_Data 
+
+Has the following fields:
 
 <li> art1: id of the first article in the pair <br />
 <li> art2: id of the second article in the pair <br />
@@ -32,12 +36,16 @@ CNRec_All_Data has the following fields:
 <li> time: the time at which the rating was made <br />
 <li> pair_id: the id of the pair of articles <br />
 
-articleToID.csv consists of two fields:
+### articleToID.csv 
+
+Consists of two fields:
 
 <li> art: the article ID <br />
 <li> filename: name of the article in the CNRec_RawText folder <br />
 
-The CNRec_RawText folder should contain 300 articles:
+### CNRec_RawText folder 
+
+Should contain 300 articles:
 
 find CNRec_RawText/ -type f | wc -l
 300
