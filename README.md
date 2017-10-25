@@ -14,8 +14,8 @@ CNRec_groundTruth.csv contains the following fields:
 
 art1	art2	meanGoodR	meanSimRating	GoodR_75	GoodR_50	pair_id	diversity_75	diversity_50
 
-*art1: id of the first article in the pair <br />
-*art2: id of the second article in the pair <br />
+<li>art1: id of the first article in the pair <br />
+art2: id of the second article in the pair <br />
 meanGoodR: the mean good recommendation rating across the six participants <br />
 meanSimRating: the mean similarity rating across the six participants <br />
 GoodR_75: A indicator value of 0 or 1 if it should be considered a good recommendation if the meanGoodR was >= 0.75 <br />
