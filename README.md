@@ -8,9 +8,9 @@ CNRec provides document to document similarity as well as whether a pair of arti
 Each pair of articles is rated by 6 human annotators against two questions:
 
 1. In terms of content delivered, how similar do you think these two articles are? The annoators were given 3 choices: 
-	Not Similar
-	Similar
-	Very Similar
+	* Not Similar
+	* Similar
+	* Very Similar
    
    Their answers were converted into numerical values 0/1/2.
 
@@ -27,7 +27,7 @@ CNRec.zip should contain the following files:
 
 and the following folder: CNRec_RawText
 
-### CNRec_groundTruth.csv 
+### CNRec_groundTruth
 
 Contains the following fields:
 
@@ -53,7 +53,7 @@ Has the following fields:
 * `time`: the time at which the rating was made 
 * `pair_id`: the id of the pair of articles 
 
-### articleToID.csv 
+### articleToID
 
 Consists of two fields:
 
